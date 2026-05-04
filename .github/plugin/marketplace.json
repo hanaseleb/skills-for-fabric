@@ -5,8 +5,8 @@
     "version": "0.3.0"
   },
   "owner": {
-    "name": "bocrivat_microsoft",
-    "email": "bocrivat@microsoft.com"
+    "name": "Microsoft",
+    "email": "copilot@microsoft.com"
   },
   "plugins": [
     {
