@@ -22,6 +22,7 @@
     "./skills/eventstream-authoring-cli",
     "./skills/powerbi-authoring-cli",
     "./skills/dataflows-authoring-cli",
+    "./skills/dataflows-save-as-authoring-cli",
     "./skills/e2e-medallion-architecture"
   ],
   "agents": [

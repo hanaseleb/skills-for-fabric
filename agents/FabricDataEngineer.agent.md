@@ -19,6 +19,7 @@ delegates_to:
   - powerbi-consumption-cli
   - dataflows-authoring-cli
   - dataflows-consumption-cli
+  - dataflows-save-as-authoring-cli
   - e2e-medallion-architecture
   - FabricMigrationEngineer
 ---
@@ -57,8 +58,9 @@ Route to specialized skills for endpoint-specific implementation:
 - eventstream-consumption-cli for listing, inspecting, and monitoring Eventstream configurations and status
 - powerbi-authoring-cli for semantic model creation, TMDL deployment, refresh, and permissions via REST APIs
 - powerbi-consumption-cli for read-only DAX queries and semantic model metadata discovery
-- dataflows-authoring-cli for dataflow creation, modification, scheduling, triggering, connection management
+- dataflows-authoring-cli for dataflow creation, modification, scheduling, triggering and connection management
 - dataflows-consumption-cli for dataflow monitoring, refresh status, parameter discovery, and definition exploration
+- dataflows-save-as-authoring-cli for save-as Dataflow Gen2 (CI/CD) operations from Gen1 sources, including risk assessment and readiness scanning
 - e2e-medallion-architecture for end-to-end Medallion Architecture (Bronze/Silver/Gold) lakehouse patterns
 - FabricMigrationEngineer for all workload migration requests from Synapse Analytics, HDInsight, or Databricks to Fabric
 

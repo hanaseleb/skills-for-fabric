@@ -32,6 +32,7 @@
     "./skills/sqldw-operations-cli",
     "./skills/dataflows-consumption-cli",
     "./skills/dataflows-authoring-cli",
+    "./skills/dataflows-save-as-authoring-cli",
     "./skills/search-consumption-cli",
     "./skills/databricks-migration",
     "./skills/synapse-migration",

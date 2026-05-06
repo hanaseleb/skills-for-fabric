@@ -29,6 +29,7 @@
         "./skills/sqldw-operations-cli",
         "./skills/dataflows-consumption-cli",
         "./skills/dataflows-authoring-cli",
+        "./skills/dataflows-save-as-authoring-cli",
         "./skills/search-consumption-cli",
         "./skills/databricks-migration",
         "./skills/synapse-migration",
@@ -78,6 +79,7 @@
         "./skills/eventstream-authoring-cli",
         "./skills/powerbi-authoring-cli",
         "./skills/dataflows-authoring-cli",
+        "./skills/dataflows-save-as-authoring-cli",
         "./skills/e2e-medallion-architecture"
       ],
       "agents": [

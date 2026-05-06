@@ -1,13 +1,14 @@
 ---
 name: dataflows-authoring-cli
 description: >
-  Create, update, delete, and manage Fabric Dataflows Gen2 with Power Query M mashup definitions
-  via CLI (az rest / curl). Author definitions with base64-encoded mashup.pq, queryMetadata.json,
-  and .platform parts. Create dataflows with inline definitions, modify mashup queries, bind
-  connections, trigger Execute refresh jobs with parameter overrides, and export definitions for
-  CI/CD. Use when the user wants to: (1) create a Dataflow Gen2 with Power Query M queries,
-  (2) update a dataflow definition, (3) trigger a refresh job, (4) bind or manage connections,
-  (5) set up CI/CD via definition export/import, (6) delete a dataflow, (7) configure staging.
+  Create, update, delete, and manage Fabric Dataflows Gen2 artifacts with Power Query M mashup definitions
+  via CLI (az rest / curl). Uses az rest and curl against the Fabric REST API to author definitions containing
+  base64-encoded mashup.pq, queryMetadata.json, and .platform parts. Supports creating dataflows with
+  inline definitions, modifying mashup queries, binding connections, triggering Execute refresh jobs
+  with typed parameter overrides, and exporting definitions for CI/CD. Use when the user wants to:
+  (1) create a new Dataflow Gen2 with Power Query M queries, (2) update a dataflow mashup definition,
+  (3) trigger a dataflow refresh job, (4) bind or manage dataflow connections, (5) set up CI/CD via
+  definition export and import, (6) delete a dataflow, (7) configure staging destinations.
   Triggers: "create dataflow", "author dataflow", "Power Query M", "mashup document", "update dataflow
   definition", "refresh dataflow", "dataflow connection", "ETL dataflow", "dataflow CI/CD".
 ---
